@@ -22,8 +22,8 @@ declare global {
 export default {
   data() {
     return {
-      account: null,
-      web3: null,
+      account: null as string | null,
+      web3: null as Web3 | null,
     };
   },
   methods: {
