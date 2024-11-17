@@ -35,7 +35,7 @@ export default {
           const accounts = await this.web3.eth.getAccounts();
           this.account = accounts[0];
         } catch (error) {
-          console.error("User denied account access");
+          console.error("User denied account access" + error);
         }
       } else {
         console.error("No Ethereum provider found. Install MetaMask.");
