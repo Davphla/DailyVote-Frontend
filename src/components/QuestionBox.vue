@@ -19,7 +19,7 @@ export default {
       required: true,
     },
     votes: {
-      type: Array, // Specify that it's an array
+      type: Array,
       required: true,
     },
     index: {

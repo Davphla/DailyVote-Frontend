@@ -8,16 +8,14 @@
 </template>
 
 <script lang="ts">
+
 import Web3 from 'web3';
-
-
 import { MetaMaskInpageProvider } from "@metamask/providers";
 declare global {
   interface Window{
-    ethereum?:MetaMaskInpageProvider
+    ethereum: MetaMaskInpageProvider
   }
 }
-
 
 export default {
   data() {
